@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "verycdplugin",
+    "description": "The plugin is used for easily downloading files on verycd.com",
+    "version": "1.0",
+    "homepage_url": "http://yangxu.me/projects",
+    "permissions": [
+        "tabs", "http://*/"
+    ],
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_title": "VeryCDPlugin",
+        "default_popup":"popup.html"
+    }
+}
